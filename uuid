@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+# encoding: utf-8
+
+require "securerandom"
+
+r = SecureRandom.uuid
+Dir.mkdir r
+print r[0...8]
+
+

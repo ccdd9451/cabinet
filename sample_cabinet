@@ -1,0 +1,11 @@
+carbinet do
+
+    file "file"
+    file :pickOut "file/in/some/place" # By default
+    file :keepDir "file/in/other/place"
+    
+    dir "dir"
+    dir :keepDir "dir/in/some/place"
+
+    glob "glob*"
+end
